@@ -8,8 +8,6 @@ void swap_max(int a[], int l, int p){
   if(max<a[i])
     max=a[i];
  }
- printf("%d\n", max);
- printf("%d\n", a[p-1]);
  for(int i=0; i<l; i++){
   if(max==a[i]){
     t=a[p-1];
